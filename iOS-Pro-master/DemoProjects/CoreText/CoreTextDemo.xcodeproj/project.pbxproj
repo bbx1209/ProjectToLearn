@@ -303,7 +303,8 @@
 				ORGANIZATIONNAME = TangQiao;
 				TargetAttributes = {
 					452F1B87184D682B0071F13B = {
-						DevelopmentTeam = 5YQ85Q9UV8;
+						DevelopmentTeam = Q3ZAA58Z58;
+						ProvisioningStyle = Automatic;
 					};
 					452F1BAB184D682B0071F13B = {
 						TestTargetID = 452F1B87184D682B0071F13B;
@@ -524,12 +525,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q3ZAA58Z58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreTextDemo/CoreTextDemo-Prefix.pch";
 				INFOPLIST_FILE = "CoreTextDemo/CoreTextDemo-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fenbi.devtang.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,12 +542,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q3ZAA58Z58;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreTextDemo/CoreTextDemo-Prefix.pch";
 				INFOPLIST_FILE = "CoreTextDemo/CoreTextDemo-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fenbi.devtang.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

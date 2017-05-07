@@ -27,6 +27,7 @@
     [super viewDidLoad];
     [self setupUserInterface];
     [self setupNotifications];
+    
 }
 
 - (void)setupUserInterface {
